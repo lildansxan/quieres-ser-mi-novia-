@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ ¿Quieres ser mi novia?❤️ </title>
+    <style>
+      .body {
+        background-color: red;
+        text-align: center;
+            } 
+
+       .body__title {
+         color: white;
+       }
+
+
+       .body__img {
+           width: 60%;
+           border-radius: 50%;
+          }
+    </style>
+</head>
+
+
+<body class="body">
+  <h1 class="body__Title">❤️ Quieres ser mi novia ❤️</h1>
+  <img src="https://frikimaestro.com/wp-content/uploads/2019/10/0005-3.jpg"
+   alt="Foto de mi" class="body__img"/>
+  <button id="Yes">✨Si mi amor✨</button>
+  <button id="No">😭No Pendejo😭</button>
+
+  <script>
+   const vutonSi = document.getElementById('yes');
+   const vutonNo = document.getElementById('no');
+  
+  const SomosNoviosTeamo = () => {
+    alert('❤️ Siii aceptaste Amor somos novios');
+    alert('Te he amado hace mucho');
+    location.href = 'https://www.youtube.com/watch?v=DRdeAbYihDk';
+     }
+
+ const EvitaRompermicorazon = () => {
+   vutonNo.style.position = 'absolute'; 
+   vutonNo.style.top = (Math.random () * window.innerHeight) + 'px';
+    vutonNo.style.top = (Math.random () * window.innerHeight) + 'px';
+   
+ }
+  vutonSi.addEventListener('click', SomosNoviosTeamo);
+  vutonNo.addEventListener('mouseover', EvitaRompermicorazon);
+
+</script>
+</body>
+
+</html>
